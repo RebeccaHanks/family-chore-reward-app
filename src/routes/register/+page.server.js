@@ -1,6 +1,6 @@
 import { fail } from '@sveltejs/kit';
 import { hash } from '@node-rs/argon2';
-import { db } from '#lib/server/db';
+import { db } from '#lib/server/db.js';
 
 export const actions = {
 	default: async ({ request }) => {
