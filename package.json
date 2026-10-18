@@ -23,5 +23,8 @@
 	"imports": {
 		"#lib": "./src/lib/index.js",
 		"#lib/*": "./src/lib/*"
+	},
+	"dependencies": {
+		"pg": "^8.23.1"
 	}
 }
